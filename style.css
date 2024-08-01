@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(netflix\ bg\ image.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.logo {
+  width: 300px;
+  cursor: pointer;
+  margin-top: 20px;
+  height: 70px;
+  margin-left: 60px;
+}
+nav button {
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 10px;
+  cursor: pointer;
+  background: #db0001;
+  color: #fff;
+  padding: 7px 20px;
+  gap: 20px;
+}
+.language_btn {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  border: 0.5px solid #fff;
+  padding: 7px 10px;
+  margin: 0px 25px;
+  height: 50px;
+  width: 180px;
+}
+.language_btn i {
+  font-size: 25px;
+}
+.Sign_btn {
+  height: 50px;
+  width: 110px;
+  font-weight: 600;
+}
+.header_content {
+  position: absolute;
+  top: 55%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.header_content h1 {
+  font-size: 3.5rem;
+  line-height: 90px;
+  font-weight: 900;
+  width: 130%;
+}
+.header_content h3 {
+  font-weight: 400;
+  margin: 30px 0px;
+  font-size: 35px;
+  text-align: center;
+  width: 130%;
+}
+.header_content p {
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 30px;
+  width: 130%;
+}
+.Signup {
+  display: flex;
+  align-items: center;
+}
+.Signup input {
+  padding: 0.9rem 1rem 0.5rem;
+  border: 0.5px solid #fff;
+  border-radius: 4px;
+  height: 70px;
+  width: 500px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 340px;
+  background: transparent;
+  color: white;
+}
+.Signup button {
+  padding: 10px 20px;
+  height: 70px;
+  width: 250px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-size: 30px;
+  margin: 20px 10px;
+  background: #db0001;
+  color: #fff;
+  border-style: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+hr {
+  border: 6px solid #333;
+}
+.first_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 75vh;
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 50px;
+}
+.text {
+  margin-left: 270px;
+}
+.text1 {
+  font-size: 3rem;
+  font-weight: 1000;
+  margin: 30px 0px;
+}
+.text2 {
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 40px;
+}
+.tv {
+  position: relative;
+}
+.tv img {
+  margin-right: 200px;
+  width: 800px;
+  height: 600px;
+  position: relative;
+  z-index: 1;
+}
+.tv video {
+  width: 592px;
+  position: absolute;
+  top: 112px;
+  right: 299px;
+}
+.second_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 75vh;
+  background-color: #000;
+  color: #fff;
+  margin: 40px 0px;
+}
+.mobile_image {
+  margin-left: 240px;
+  width: 40%;
+}
+.mobile_text1 {
+  font-size: 3rem;
+  font-weight: 1000;
+  margin: 30px 0px;
+  margin-right: 300px;
+  width: 100%;
+}
+.mobile_text2 {
+  font-size: 1.2rem;
+  font-weight: 200;
+  line-height: 40px;
+  width: 70%;
+}
+.mobile_image img {
+  margin-right: 200px;
+  width: 750px;
+  height: 550px;
+  margin-bottom: 60px;
+}
+.third_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 75vh;
+  background-color: #000;
+  color: #fff;
+  margin: 40px 0px;
+}
+.device_image {
+  margin-right: 150px;
+  width: 40%;
+  position: relative;
+}
+.device_text1 {
+  font-size: 3rem;
+  font-weight: 1000;
+  margin: 50px 0px;
+  margin-left: 300px;
+  line-height: 40px;
+}
+.device_text2 {
+  margin-left: 300px;
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 40px;
+  margin-bottom: 100px;
+}
+.device_image img {
+  width: 800px;
+  height: 600px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+}
+.device_image video {
+  width: 527px;
+  position: absolute;
+  top: 49px;
+  right: 151px;
+}
+.fourth_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 75vh;
+  background-color: #000;
+  color: #fff;
+  margin: 40px 0px;
+}
+.child image {
+  margin-left: 500px;
+}
+.child_text1 {
+  font-size: 3rem;
+  font-weight: 1000;
+  margin: 30px 0px;
+  margin-right: 200px;
+  width: 100%;
+}
+.child_text2 {
+  font-size: 1.2rem;
+  font-weight: 100;
+  line-height: 40px;
+}
+.child_image img {
+  margin-left: 250px;
+  width: 750px;
+  height: 600px;
+  margin-bottom: 20px;
+}
+.faq {
+  width: 100%;
+  height: 130vh;
+}
+.faq h2 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+.faq_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  background-color: #333333;
+  height: 110px;
+  font-size: 2.5rem;
+  font-weight: 100;
+  margin: 13px 10%;
+}
+.faq_box:hover {
+  background-color: #817c7c85;
+}
+.faq_box span {
+  margin: 0px 50px;
+}
+.faq p {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.faq form {
+  margin-left: 13%;
+  margin-bottom: 50px;
+}
+.footer {
+  width: 100%;
+  height: 50vh;
+  margin-bottom: 50px;
+}
+.footer h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  margin-left: 280px;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 30px;
+  margin-left: 280px;
+}
+.footer .col {
+  display: flex;
+  flex-direction: column;
+}
+.footer .col a {
+  margin: 20px 0px;
+  color: #fff;
+  font-size: 1rem;
+}
+.footer_btn {
+  display: inline-flex;
+  align-items: center;
+  background: transparent;
+  border: 0.5px solid #fff;
+  border-radius: 4px;
+  padding: 7px 10px;
+  height: 35px;
+  width: 150px;
+  color: #fff;
+  margin-left: 278px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  gap: 13px;
+}
+.footer_btn i {
+  font-size: 25px;
+}
+.footer p {
+  font-size: 20px;
+  margin-left: 278px;
+  margin-bottom: 30px;
+}
